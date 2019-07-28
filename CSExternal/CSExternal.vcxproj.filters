@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{bd7ff9a6-486c-4e2b-8163-c3904d93c144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{dca1dcab-b95c-4c48-aa19-7742ecee8e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{dcbf1c88-39ad-4086-a0bf-7a9a5ddd332e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Glow">
+      <UniqueIdentifier>{3ca673e8-2398-423f-bcc2-0d7c9d422a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\BHop">
+      <UniqueIdentifier>{a1d8be0f-c823-4ebd-9e09-9db2f62a0be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\TriggerBot">
+      <UniqueIdentifier>{310519d0-c840-4dcd-8dfc-e04793a7bba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Offsets">
+      <UniqueIdentifier>{cdead769-497f-44f3-8e35-408cec90455d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\NoFlash">
+      <UniqueIdentifier>{61de484c-3832-444b-b82e-d61f155105e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LocalPlayer">
+      <UniqueIdentifier>{31ba3acb-6bcd-4b64-a2ea-98b6cee1a7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityBase">
+      <UniqueIdentifier>{0378093b-5e8c-44f7-9603-56e943af906e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot">
+      <UniqueIdentifier>{7e88067e-979a-44bd-bf08-ee16fe453c8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemMan.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="BHop.cpp">
+      <Filter>Features\BHop</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Features\TriggerBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Features\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="NoFlash.cpp">
+      <Filter>Features\NoFlash</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayer.cpp">
+      <Filter>LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>EntityBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemMan.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="BHop.h">
+      <Filter>Features\BHop</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Features\TriggerBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Features\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="NoFlash.h">
+      <Filter>Features\NoFlash</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>LocalPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>EntityBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorManager.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="W2S.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
